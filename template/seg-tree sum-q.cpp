@@ -1,4 +1,4 @@
-const ll seg_tree_size = 1e5;
+const ll seg_tree_size = 4 * 1e5;
 ll tree[seg_tree_size];
 
 //v is vertex, v = 1 initially
