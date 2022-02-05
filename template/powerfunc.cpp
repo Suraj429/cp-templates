@@ -63,5 +63,5 @@ ostream& operator<< (ostream& out, Modint p) {
   out << p.val;
   return out;
 }
-
+  
 // ans = exp(Modint(2), ans); - > 2 ^ ans

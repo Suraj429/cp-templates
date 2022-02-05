@@ -24,7 +24,7 @@ void build(ll a[], ll v, ll tl, ll tr) {
     }
 }
 
-//range is l and r, 0 based indexing
+//range is l and r with 0 based indexing
 pair<ll, ll> get_max(ll v, ll tl, ll tr, ll l, ll r) {
     if (l > r)
         return make_pair(-INF, 0);
